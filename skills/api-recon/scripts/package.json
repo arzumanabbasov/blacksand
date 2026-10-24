@@ -5,5 +5,8 @@
   "description": "Headless runtime API harvester for the api-recon skill",
   "dependencies": {
     "puppeteer-core": "^25.16.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   }
 }
