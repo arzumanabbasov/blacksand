@@ -7,7 +7,7 @@ RUN npm ci
 COPY web/ ./
 RUN npm run build:static
 
-FROM --platform=$BUILDPLATFORM golang:1.26.3-bookworm AS backend
+FROM --platform=$BUILDPLATFORM golang:1.26.10-bookworm AS backend
 ARG TARGETOS=linux
 ARG TARGETARCH
 ARG VERSION=dev

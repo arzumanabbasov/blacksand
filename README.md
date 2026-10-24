@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/arzumanabbasov/blacksand/actions/workflows/ci.yml"><img src="https://github.com/arzumanabbasov/blacksand/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI" /></a>
-  <img src="https://img.shields.io/badge/Go-1.26.3-00ADD8?logo=go&logoColor=white" alt="Go 1.26.3" />
+  <img src="https://img.shields.io/badge/Go-1.26.10-00ADD8?logo=go&logoColor=white" alt="Go 1.26.10" />
   <img src="https://img.shields.io/badge/Node.js-22%2B-43853D?logo=nodedotjs&logoColor=white" alt="Node.js 22 or newer" />
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Arzuman-d8be8b" alt="Arzuman License" /></a>
 </p>
@@ -47,7 +47,7 @@ Use controlled environments and targets you have permission to assess. Review th
 
 ### Requirements
 
-- **Go 1.26.3**, as declared in go.mod.
+- **Go 1.26.10**, as declared in go.mod.
 - **Node.js 22+** and npm.
 - An API-compatible model provider for agent execution.
 - PostgreSQL for Compose, or SQLite for local development.
