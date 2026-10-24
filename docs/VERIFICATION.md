@@ -16,6 +16,10 @@ Use go test -p 1 ./... on hosts with limited resources. Windows can expose platf
 
 Run npm ci and npm test separately in adapters/agent and adapters/e2b. The agent adapter also provides npm run check. End-to-end adapter tests need a configured backend and database; ordinary unit tests do not establish that result.
 
+## Security workflow availability
+
+Secret scanning, npm audits, `go vet` and `govulncheck` run independently of GitHub Code Security. CodeQL runs for public repositories. For a private repository, enable GitHub Code Security first, then set the repository Actions variable `BLACKSAND_CODEQL_ENABLED=true`; otherwise those jobs are explicitly skipped because GitHub rejects their code-scanning upload. The other checks continue to run. Go vulnerability checks do not replace CodeQL's broader static analysis.
+
 ## Current development receipts
 
 On 2026-10-24, the frontend's 22 tests and production export passed. The external adapter's seven tests and four selected E2B bridge tests passed. Targeted Go checks for agent, locale, config, guard, notify, selfupdate and cmd/blacksand passed. The embedded Windows executable built successfully.

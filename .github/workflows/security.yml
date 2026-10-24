@@ -29,6 +29,8 @@ jobs:
         run: '"$RUNNER_TEMP/gitleaks/gitleaks" git --log-opts="--all" --redact --no-banner .'
   codeql:
     name: CodeQL / ${{ matrix.language }}
+    # Private repositories need GitHub Code Security enabled before CodeQL can upload.
+    if: ${{ !github.event.repository.private || vars.BLACKSAND_CODEQL_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     permissions:
@@ -58,3 +60,18 @@ jobs:
       - uses: github/codeql-action/analyze@9b3254085494b55a0f7c4c2b3d2d52cc712ce370 # v4
         with:
           category: /language:${{ matrix.language }}
+  go-security:
+    name: Go vulnerability and static checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: go.mod
+      - run: go vet ./...
+      - name: Install pinned Go vulnerability checker
+        run: go install golang.org/x/vuln/cmd/govulncheck@v1.9.0
+      - run: govulncheck ./...
