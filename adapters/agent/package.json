@@ -11,7 +11,7 @@
     "check": "node --check src/client.js && node --check src/tools.js && node --check src/mcp.js && node --check pi-extension.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.32.0",
+    "@modelcontextprotocol/sdk": "1.32.1",
     "zod": "4.6.5"
   },
   "pi": { "extensions": ["./pi-extension.js"] }
