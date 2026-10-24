@@ -22,6 +22,8 @@ Use the [track-record template](track-record/TEMPLATE.md) for agent runs, findin
 
 ## Dependency maintenance
 
+TypeScript major upgrades require a manual migration of the transpilation-based tests. Keep Node type definitions on the supported Node 22 major until the runtime target changes; Dependabot ignores major updates for these two tooling dependencies. Minor, patch and security maintenance remains enabled.
+
 Dependabot checks every Monday at 09:00 Europe/Budapest. Minor and patch version updates are grouped per ecosystem, with at most two open version-update PRs per configured ecosystem and a seven-day cooldown. Major updates stay separate. Security updates have their own group and do not wait for the version-update cooldown.
 
 Review release notes and lockfile changes, then require the frontend, adapters, PostgreSQL integration and security checks to pass on the combined result before merging. CI rejects high or critical npm audit findings. Consolidated maintenance PRs should identify the individual PRs they replace so the obsolete branches can be closed.
