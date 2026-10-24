@@ -92,3 +92,6 @@ coverage.out
 /landing/assets/img/*
 !/landing/assets/img/blacksand.svg
 !/landing/assets/img/social-preview.png
+
+# Dependencies installed by skill runtimes and nested workspaces
+node_modules/

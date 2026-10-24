@@ -35,7 +35,7 @@ updates:
         applies-to: security-updates
         patterns: ["*"]
   - package-ecosystem: npm
-    directories: [/web, /adapters/agent, /adapters/e2b]
+    directories: [/web, /adapters/agent, /adapters/e2b, /skills/api-recon/scripts]
     schedule:
       interval: weekly
       day: monday
