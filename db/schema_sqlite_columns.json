@@ -1,0 +1,3410 @@
+{
+  "companies": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "nkey",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "logo",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "assets": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "type",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "company_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "company_source",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_ids",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "domain",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "root_domain",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "ip",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "c_segment",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "port",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "icp",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "bound_domains",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "open_ports",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "record_type",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "record_value",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "bundle_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "app_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "category",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "app_description",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "app_icp",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "url",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "service_type",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "service_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "favicon_mmh3",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status_code",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "content_length",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "page_title",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "technologies",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "auth",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "method",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "params",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "extra",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "last_seen",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "company_scope": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "company_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "domain",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "net",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "value",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "raw",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "reason",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "explorations": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "description",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "goal",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "round_no",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "exploration_nodes": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "payload",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "priority",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "state",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "origin",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "owner",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "blocked_reason",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "delete_reason",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "completed_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "content_version",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "cold_since_round",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "exploration_edges": [
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "src_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "dst_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "rel",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "exploration_anchors": [
+    {
+      "name": "node_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "asset_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "task_constraints": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "text",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "origin",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "activity": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "node_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "worker",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool_use_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "is_error",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "summary",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "detail",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "metadata",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "input_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "output_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "cache_read_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "cache_write_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "main_seg",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "main_sessions": [
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "seq",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "settings": [
+    {
+      "name": "key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "value",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "llm_profiles": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "format",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "base_url",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "proxy",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "model",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "api_key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "api_key_hint",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "rate_per_second",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "rate_per_minute",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "context_window_k",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "reasoning_effort",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "thinking_type",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "is_default",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "priority",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "pool_exclude",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "streaming",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "max_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "max_tokens_field",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "session_header_key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "retry_connect_attempts",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "retry_connect_interval_ms",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "retry_empty_attempts",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "retry_empty_interval_ms",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "retry_stream_attempts",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "retry_stream_interval_ms",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "llm_profile_health": [
+    {
+      "name": "profile_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "fails",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "trips",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "open_until",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "last_error",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "last_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "task_categories": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "nkey",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "tasks": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "category_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "description",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "goal",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "paused",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "queued",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "queued_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "queue_mode",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "llm_profile_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "active_llm_profile_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "llm_chain_revision",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "company_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "parent_ref",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "timeout_seconds",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "plan_heartbeat_seconds",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "coverage_enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "pinned_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "first_run_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "deadline_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "archived_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "deleted_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "completed_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "task_archives": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "state",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "phase",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "progress",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "error",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "warnings",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "format_version",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "archive_path",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "sha256",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "original_size",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "compressed_size",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_description",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_goal",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "original_status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "category_id_snapshot",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "category_name_snapshot",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "source_task_ids",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "remaining_timeout_seconds",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "data_counts",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "aggregate_stats",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "archived_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "requested_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "task_templates": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "nkey",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "description",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "goal",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "category_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "intercept_rules",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "task_relations": [
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "source_task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "task_asset_links": [
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "asset_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "source",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "source_summary",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "source_node_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "task_llm_profiles": [
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "profile_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "position",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "last_error",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exhausted_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "task_scope": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "company_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "domain",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "net",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "value",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "source",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "reason",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "agents": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "description",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "role",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "builtin",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "llm_profile_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "current_prompt_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "max_turns",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "run_seconds",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "web_search",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "interactive_shell",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "wrapup_prompt",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "wrapup_max_turns",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_timeout_wrapup_prompt",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_timeout_wrapup_max_turns",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "trigger_run_mode",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "trigger_merge_mode",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "trigger_max_parallel",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "agent_prompts": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "agent_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "version",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "template_text",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "note",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_by",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "agent_prompt_vars": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "agent_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "var_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "description",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "example",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "source",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "mcp_servers": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "transport",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "command",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "args",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "env",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "url",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "insecure",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "mcp_tools_cache": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "server_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "description",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "schema",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "discovered_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "agent_visibility": [
+    {
+      "name": "agent_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "resource_kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "resource_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "mcp_tool_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "agent_skill_visibility": [
+    {
+      "name": "agent_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "skill_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "skill_usage": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "ts",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "skill",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "agent_key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "intent_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "session_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "args_len",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "found",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    }
+  ],
+  "tool_usage": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "ts",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool_key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "agent_key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "intent_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "session_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "tools": [
+    {
+      "name": "key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "system",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "description",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "schema",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "agents",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exec",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "deferred",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "conversations": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "agent_key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "title",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "llm_profile_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "pinned_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "conversation_activities": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "conversation_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "worker",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool_use_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "is_error",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "summary",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "detail",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "input_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "output_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "cache_read_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "cache_write_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "agent_triggers": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "agent_key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "interval_sec",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "on_finding",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "on_goal_met",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "on_task_timeout",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "on_tool_call",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "on_task_create",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "interval_message",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "finding_message",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "goal_message",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_timeout_message",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool_call_message",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_create_message",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool_names",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "last_fire",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "scheduler_state": [
+    {
+      "name": "key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "value",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "intercept_rules": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "priority",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "match_target",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "match_type",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "pattern",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "action",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "message",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "timeout_enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "timeout_seconds",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "timeout_action",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "intercept_pending": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "rule_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "conversation_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "agent_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tool_input",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "reason",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "decided_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "audit",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "decision_source",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "findings": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "node_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "vulnclass",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "severity",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "summary",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "evidence",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "worker",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "asset_ids",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "report",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "evidence_version",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "report_evidence_version",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "finding_retests": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "finding_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "conversation_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "verdict",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "notes",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "snapshot",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "summary",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "evidence",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "error",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "started_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "finished_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "traffic_evidence_snapshots": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "source_traffic_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "captured_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "url",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "method",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "content_type",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "req_head",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "resp_head",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "req_hash",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "resp_hash",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "req_len",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "resp_len",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "unreferenced_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "finding_traffic_bindings": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "finding_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "snapshot_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "role",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "note",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "position",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "server_logs": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "level",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "tag",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "text",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "side_question_sessions": [
+    {
+      "name": "session_key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "conversation_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "intent_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "run_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "version",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "snapshot",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "generation",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "memory",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "side_question_requests": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "ordinal",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "session_key",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "generation",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "client_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "question",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "answer",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "error",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "model",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "snapshot_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "sequence",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "usage",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "context_info",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "asset_intercept_rules": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "pattern",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "note",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "builtin",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "task_intercept_rules": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "action",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "pattern",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "note",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "notification_channels": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "enabled",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "config",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "mode",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "filter",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "rate_per_min",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "updated_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "notification_events": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "kind",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "finding_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "snapshot",
+      "json": true,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "fanned_out",
+      "json": false,
+      "boolean": true,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "notification_deliveries": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "event_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "channel_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "state",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "attempts",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "next_attempt_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "last_error",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "batch_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "created_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "sent_at",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "llm_records": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "ts",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "model",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "profile_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "session_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "worker",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "latency_ms",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "input_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "output_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "cache_read",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "cache_write",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "error",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "request_body",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "response_body",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "raw_request",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "raw_response",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ],
+  "llm_usage": [
+    {
+      "name": "id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "ts",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "task_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "exploration_id",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "worker",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "model",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "profile_name",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "latency_ms",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "input_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "output_tokens",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "cache_read",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "cache_write",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    },
+    {
+      "name": "status",
+      "json": false,
+      "boolean": false,
+      "binary": false
+    }
+  ]
+}

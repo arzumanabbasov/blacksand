@@ -1,0 +1,94 @@
+# backend
+/data/
+*.db
+*.db-wal
+*.db-shm
+config.json
+scheduler_state.json
+__pycache__/
+*.pyc
+*.pyo
+
+# frontend
+adapters/e2b/node_modules/
+web/node_modules/
+web/.next/
+web/tsconfig.tsbuildinfo
+web/next-env.d.ts
+*.local
+
+# development tools
+.playwright-mcp/
+.playwright-cli/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+# os
+.DS_Store
+Thumbs.db
+
+# claude code local state
+.claude/
+
+# Binary with embedded frontend
+/blacksand
+# Self-update staging, backup, failed binary and marker
+/blacksand.new
+/blacksand.new.sha256
+/blacksand.old
+/blacksand.failed
+/blacksand.upgrade.json
+/server/webui/dist/
+/dist/
+
+# Runtime JWT signing key; never commit
+/jwt.key
+
+# Local Docker environment with passwords/keys; never commit
+.env
+
+# Scheduler test event logs
+*-events.csv
+
+# Local benchmark artifacts
+/bench/
+/Dockerfile.bench
+/Dockerfile.bench.v2
+/blacksand
+/blacksand.exe
+/blacksand.new
+/blacksand.new.sha256
+/blacksand.old
+/blacksand.failed
+/blacksand.upgrade.json
+
+# Locally built Windows executables
+/*.exe
+/adapters/agent/node_modules/
+
+# Local scratch and private audit artifacts
+/attack-logs.json
+/data-sql-audit.tmp
+/prompt - for new version.md
+*.tmp
+
+# Generated exports and local-only state
+web/out/
+.impeccable/
+*.bak
+*.log
+*.zip
+*.tar.gz
+*.sarif
+coverage.out
+.gitleaks-report.json
+
+# Retired marketing assets; current identity is in docs/assets and landing SVG
+/screenshots/
+/landing/assets/fonts/
+/landing/assets/img/*
+!/landing/assets/img/blacksand.svg
+!/landing/assets/img/social-preview.png
