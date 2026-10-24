@@ -170,7 +170,7 @@ package_binary() {
   cp "$binary" "$package_root/"
   # Package the platform supervisor so updates can restart the process.
   if [ "$goos" = "windows" ]; then
-    cp start.bat "$package_root/"
+    cp start.bat start-desktop.ps1 "$package_root/"
   else
     cp start.sh "$package_root/"
     chmod +x "$package_root/start.sh"

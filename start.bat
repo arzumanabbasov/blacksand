@@ -1,6 +1,15 @@
 @echo off
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
+if "%~1"=="" (
+  powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0start-desktop.ps1"
+  if errorlevel 1 (
+    echo [Blacksand] Startup failed. See the message above.
+    pause
+    exit /b 1
+  )
+  exit /b 0
+)
 set "BIN=blacksand.exe"
 if not exist "%BIN%" (
   echo [Blacksand] Executable not found: %BIN% 1>&2

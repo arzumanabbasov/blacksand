@@ -4,6 +4,12 @@ Use the root README for development commands. Use build.sh for an executable wit
 
 The API defaults to port 8787, the recording proxy to 8788 and the development frontend to 3000. Bind local installations to loopback or configure an appropriate remote access boundary.
 
+## Windows desktop launch
+
+With a built `blacksand.exe` in the project or release folder, double-click `start.bat`. It starts the app in the background on `http://127.0.0.1:8787`, waits for readiness and opens your browser. Running it again opens the existing instance. Startup logs are in `log/desktop-stdout.log` and `log/desktop-stderr.log`.
+
+The desktop launcher keeps an existing absolute SQLite database path and its data directory together. It does not start Docker. To run the executable in a terminal with custom flags and restart supervision, pass those flags to `start.bat`, for example `start.bat -addr 127.0.0.1:8787`.
+
 ## SQLite
 
 Set BLACKSAND_DB_DRIVER=sqlite. The default file is data/blacksand.db under the application base directory. BLACKSAND_SQLITE_PATH selects another file.
