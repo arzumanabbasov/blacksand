@@ -106,7 +106,7 @@ func TestTriggerLocalizedMergePreservesPayloads(t *testing.T) {
 		}
 		for _, merge := range []func([]triggeredRun) triggeredRun{mergeTriggeredRuns, mergeAllRuns} {
 			out := merge(items)
-			if out.language != lang {
+			if out.language != locale.En {
 				t.Fatalf("Merge lost language: %s", out.language)
 			}
 			if strings.Count(out.message, longGoal) != 1 || strings.Count(out.message, items[0].message) != 3 {
@@ -114,7 +114,7 @@ func TestTriggerLocalizedMergePreservesPayloads(t *testing.T) {
 			}
 			want := "Trigger 3"
 			if lang == locale.En {
-				want = " 3"
+				want = "Trigger 3"
 			}
 			if !strings.Contains(out.message, want) {
 				t.Fatalf("Merge ignored language %s: %s", lang, out.message)

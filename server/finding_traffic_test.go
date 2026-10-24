@@ -496,7 +496,7 @@ func TestFindingToolLanguagesPreserveSchemaAndCanonicalDefaults(t *testing.T) {
 		if strings.ContainsFunc(tool.Description(), func(r rune) bool { return unicode.Is(unicode.Hangul, r) }) {
 			t.Fatalf("Default seed metadata is not English: %s", tool.Name())
 		}
-		if !strings.ContainsFunc(translated.Description(), func(r rune) bool { return unicode.Is(unicode.Hangul, r) }) {
+		if translated.Description() != tool.Description() {
 			t.Fatalf("Missing unsupported-language tool metadata: %s", tool.Name())
 		}
 		left, right := tool.InputSchema(), translated.InputSchema()
@@ -518,7 +518,7 @@ func TestFindingToolLanguagesPreserveSchemaAndCanonicalDefaults(t *testing.T) {
 	}
 	// Metadata language must not override an individual run's output preference.
 	result, err := s.toolGetFindingTraffic(locale.En).Call(locale.WithLang(context.Background(), locale.En), json.RawMessage(`{"finding_id":0}`), nil)
-	if err != nil || !result.IsError || !strings.Contains(result.Flatten(), "Independent finding record ID") {
+	if err != nil || !result.IsError || !strings.Contains(result.Flatten(), "independent finding record ID") {
 		t.Fatalf("Tool callback ignored run locale: %s %v", result.Flatten(), err)
 	}
 }
@@ -558,8 +558,8 @@ func TestFindingLocalizedEvidencePreservesRawBytes(t *testing.T) {
 			}
 		}
 	}
-	bad := req("GET", fmt.Sprintf("/api/exploration/findings/%d/traffic/%d/body?side=response&offset=-1&lang=ko", f.FindingID, list.Bindings[0].ID), "")
-	if bad.Code != 422 || !strings.Contains(bad.Body.String(), "  ") {
+	bad := req("GET", fmt.Sprintf("/api/exploration/findings/%d/traffic/%d/body?side=response&offset=-1&lang=unsupported", f.FindingID, list.Bindings[0].ID), "")
+	if bad.Code != 422 || !strings.Contains(bad.Body.String(), "offset / length must not be negative") {
 		t.Fatalf("Localized preview validation: %d %s", bad.Code, bad.Body)
 	}
 }
@@ -612,8 +612,8 @@ func TestFindingCatalogCoverage(t *testing.T) {
 			if !ok || en != key {
 				t.Errorf("Missing English template %q", key)
 			}
-			ko, ok := locale.Lookup(locale.En, key)
-			if !ok || !strings.ContainsFunc(ko, func(r rune) bool { return unicode.Is(unicode.Hangul, r) }) {
+			fallback, ok := locale.Lookup(locale.Lang("unsupported"), key)
+			if !ok || fallback != en {
 				t.Errorf("Missing unsupported-language template %q", key)
 			}
 			return true

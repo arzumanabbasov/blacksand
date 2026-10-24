@@ -259,7 +259,7 @@ func TestTaskOriginUsesExplicitLanguage(t *testing.T) {
 	if err = d.QueryRow(`SELECT payload->>'summary' FROM exploration_nodes WHERE exploration_id=$1 AND state='origin'`, task.ExplorationID).Scan(&summary); err != nil {
 		t.Fatal(err)
 	}
-	if summary != "Task : Raw description ; objective: Raw goal" {
+	if summary != "Task starting point: Raw description ; objective: Raw goal" {
 		t.Fatalf("origin message=%q", summary)
 	}
 }

@@ -28,8 +28,13 @@ while IFS= read -r package; do
   createdb "$active_database"
   export BLACKSAND_PG_DSN="postgres://${PGUSER}:${PGPASSWORD}@${PGHOST}:${PGPORT}/${active_database}?sslmode=disable"
   "$scratch/init-db"
-  if ! go test -p 1 "$package" -count=1; then status=1; fi
+  if ! BLACKSAND_ADAPTER_E2E=0 go test -p 1 "$package" -count=1; then status=1; fi
   dropdb --force "$active_database"
   active_database=""
 done < <(go list ./...)
+active_database="blacksand_adapter_ci"
+createdb "$active_database"
+export BLACKSAND_PG_DSN="postgres://${PGUSER}:${PGPASSWORD}@${PGHOST}:${PGPORT}/${active_database}?sslmode=disable"
+"$scratch/init-db"
+if ! BLACKSAND_ADAPTER_E2E=1 go test ./server -run '^TestAgentAdapterE2E$' -count=1; then status=1; fi
 exit "$status"

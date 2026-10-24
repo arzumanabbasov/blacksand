@@ -12,7 +12,6 @@ import (
 	"strconv"
 	"strings"
 	"testing"
-	"unicode"
 )
 
 func TestConversationListRunningState(t *testing.T) {
@@ -147,8 +146,8 @@ func TestConversationCatalogCoverage(t *testing.T) {
 			if !ok || en != key {
 				t.Errorf("Missing English template %q", key)
 			}
-			ko, ok := locale.Lookup(locale.En, key)
-			if !ok || !strings.ContainsFunc(ko, func(r rune) bool { return unicode.Is(unicode.Hangul, r) }) {
+			fallback, ok := locale.Lookup(locale.Lang("unsupported"), key)
+			if !ok || fallback != en {
 				t.Errorf("Missing unsupported-language template %q", key)
 			}
 			return true
@@ -167,7 +166,7 @@ func TestConversationBroadcastAndLogPreserveRawText(t *testing.T) {
 	if got.Kind != a.Kind || got.Worker != a.Worker || got.Summary != a.Summary || got.Detail != a.Detail {
 		t.Fatalf("Broadcast altered raw activity: %+v", got)
 	}
-	for _, tc := range []struct{ text, level string }{{"[test] operation failed", "error"}, {"[test] Task ", "error"}, {"[test] retry later", "warn"}, {"[test] ", "warn"}, {"[test] raw transcript", "info"}} {
+	for _, tc := range []struct{ text, level string }{{"[test] operation failed", "error"}, {"[test] Task ", "info"}, {"[test] retry later", "warn"}, {"[test] warning", "warn"}, {"[test] raw transcript", "info"}} {
 		line := parseLog(tc.text)
 		if line.Level != tc.level || line.Text != tc.text || line.Tag != "test" {
 			t.Fatalf("Log language/identity changed: %+v", line)

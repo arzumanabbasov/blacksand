@@ -214,12 +214,12 @@ func parseLog(line string) LogLine {
 // Recognition never rewrites the stored log text or event protocol fields.
 func levelOf(msg string) string {
 	low := strings.ToLower(msg)
-	for _, k := range []string{"fatal", "panic", "error", "err:", "failed", "discarded", "rejected", "unreachable", "", "", "", "  ", "失败", "丢弃", "拒绝", "✕", "不可达"} {
+	for _, k := range []string{"fatal", "panic", "error", "err:", "failed", "discarded", "rejected", "unreachable", "失败", "丢弃", "拒绝", "✕", "不可达"} {
 		if strings.Contains(low, k) {
 			return "error"
 		}
 	}
-	for _, k := range []string{"warn", "disabled", "retry", "", "", "", "", "禁用", "skip", "stopped", "⚠", "重试"} {
+	for _, k := range []string{"warn", "disabled", "retry", "禁用", "skip", "stopped", "⚠", "重试"} {
 		if strings.Contains(low, k) {
 			return "warn"
 		}

@@ -10,7 +10,6 @@ import (
 	"strconv"
 	"strings"
 	"testing"
-	"unicode"
 
 	"github.com/arzumanabbasov/blacksand/locale"
 )
@@ -28,7 +27,7 @@ func TestAssetInterceptLocalizedValidationPreservesRules(t *testing.T) {
 		}
 		label := "not a valid IP address"
 		if lang == locale.En {
-			label = " IP  "
+			label = "not a valid IP address"
 		}
 		if !strings.Contains(text, label) {
 			t.Fatalf("%s validation not localized: %q", lang, text)
@@ -130,8 +129,8 @@ func TestAssetInterceptCatalogCoverage(t *testing.T) {
 			if !ok || en != key {
 				t.Errorf("Missing English template %q", key)
 			}
-			ko, ok := locale.Lookup(locale.En, key)
-			if !ok || !strings.ContainsFunc(ko, func(r rune) bool { return unicode.Is(unicode.Hangul, r) }) {
+			fallback, ok := locale.Lookup(locale.Lang("unsupported"), key)
+			if !ok || fallback != en {
 				t.Errorf("Missing unsupported-language template %q", key)
 			}
 			return true

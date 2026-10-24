@@ -77,7 +77,7 @@ func TestTaskTrancheArchiveErrorsPreserveCauses(t *testing.T) {
 		t.Fatal("lost wrapped error identity")
 	}
 	ko := locale.ErrorMessage(locale.En, joined)
-	for _, part := range []string{"Task  ", "user/path ", cause.Error(), "  "} {
+	for _, part := range []string{"stage task archive", "user/path ", cause.Error(), "task archive checksum mismatch"} {
 		if !strings.Contains(ko, part) {
 			t.Fatalf("missing %q in %q", part, ko)
 		}
